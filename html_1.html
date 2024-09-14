@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            background: ;
+            font-size: 7rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main"></div>
+
+    <script>
+        // adding text in div
+        let d = document.getElementById('main');
+        d.textContent = "Sesha is genius";
+        // adding p tag in div
+        let mark = document.createElement('p');
+        // adding text in p tag
+        mark.textContent = "Sesha is hero";
+        d.appendChild(mark);
+        // console.log(d)
+        //----
+        // adding color in div tag 
+        let col = document.body.style.color="#2c3e50";
+        d.appendChild(col)
+        let col3 = document.body.style.background="#7d3c98";
+        d.appendChild(col3)
+
+    </script>
+</body>
+
+</html>
